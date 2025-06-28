@@ -1,0 +1,14 @@
+public class duplicate {
+    public static void main(String[] args) {
+        int[]arrr={2,4,6,2,4,8};
+        System.out.println("Duplicate elements:");
+        for(int i=0;i<arrr.length;i++){
+            for(int j=i+1;j<arrr.length;j++){
+                if(arrr[i]==arrr[j]){
+                    System.out.println(arrr[i]);
+                    break;
+                }
+            }
+        }
+    }
+}
